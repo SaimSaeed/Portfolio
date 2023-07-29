@@ -14,6 +14,7 @@ body {
 .navbar {
     height: 10vh;
     background-color: $contrast-color;
+
     .navbar-brand {
         color: black;
         margin-left: 2%;
@@ -315,12 +316,7 @@ body {
     background-color: white;
 
     .contact-heading {
-        height: 30vh;
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
-        flex-direction: column;
-
+      
         h1 {
             color: black;
         }
@@ -334,16 +330,47 @@ body {
             border-radius: 2px;
 
         }
+
+
+        .contact-details {
+            margin-top: 10vh;
+            margin-bottom: 10vh;
+
+            ul {
+
+                list-style-type: none;
+
+                li {
+                    margin-top: 7%;
+
+                    svg {
+                        color: rgb(215, 159, 17);
+                    }
+
+                    a {
+                        text-decoration: none;
+                        color: black;
+                        margin-left: 3%;
+                        font-size: 1.2rem;
+
+
+                        &:hover {
+                            color: rgb(215, 159, 17);
+                        }
+                    }
+                }
+            }
+        }
     }
 
 
-    .contact-form{
+    .contact-form {
         background-color: $contrast-color;
         width: 80%;
         height: 80vh;
         margin-top: 10vh;
         border-radius: 10px;
-        filter: drop-shadow( 8px 8px 6px rgba(0, 0, 0, 0.4));
+        filter: drop-shadow(8px 8px 6px rgba(0, 0, 0, 0.4));
 
         ul {
             li {
@@ -351,16 +378,32 @@ body {
                     border: none;
                     background-color: rgb(215, 159, 17);
                     outline: none;
-                    color:grey;
+                    color: grey;
+
+                    &:hover {
+                        background-color: lightgrey;
+                    }
                 }
 
-                textarea{
+                textarea {
                     border: none;
                     background-color: rgb(215, 159, 17);
                     outline: none;
-                    color:grey;
+                    color: grey;
 
-                 
+
+                }
+
+                button {
+                    outline: none;
+                    border: none;
+                    filter: drop-shadow(6px 6px 4px rgba(0, 0, 0, 0.4));
+
+                    &:hover {
+                        background-color: white;
+                        color: black;
+                    }
+
                 }
             }
         }
@@ -369,12 +412,3 @@ body {
 
 
 }
-
-
-
-
-
-   
-
-
-
