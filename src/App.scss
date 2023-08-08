@@ -98,8 +98,10 @@ body {
             min-height: 90vh;
             color: $text-color;
 
+          
+
             .main-text {
-                margin-top: 20%;
+                margin-top: 70%;
             }
 
             .button {
@@ -121,16 +123,35 @@ body {
 
 
 
-        // .img {
-        //     height: 90vh;
-        //   background-color: #000;
+   
+
+
+        .img {
+            height: 90vh;
+        //   background-image: url("../src/assets/pro2.png");
         //     margin-top: 70px;
         //   background-repeat: no-repeat;
         //   background-size: cover;
         //   background-position: center;
         //   border-radius: 50%;
-        // filter: drop-shadow( 8px 8px 6px rgba(0, 0, 0, 0.4));
-        // }
+        filter: drop-shadow( 8px 8px 6px rgba(0, 0, 0, 0.4));
+
+
+        .color{
+
+
+            background-color: black;
+            height: 65vh;
+            width: 55vh;
+            border-radius: 50%;
+            margin-top: 40%;
+            position: relative;
+        }
+    }
+
+
+
+
 
     }
 }
@@ -316,7 +337,7 @@ body {
     background-color: white;
 
     .contact-heading {
-      
+
         h1 {
             color: black;
         }
