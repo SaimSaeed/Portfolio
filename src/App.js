@@ -8,7 +8,7 @@ import Projects from './pages/Projects/Projects';
 import About from './pages/About/About';
 import Contact from './pages/Contact/Contact';
 import profile from "../src/assets/profile.JPG"
-import pro from "../src/assets/pro.png"
+
 
 
 
@@ -21,7 +21,7 @@ function App() {
   
    <Header/>
 
-   <Home     profile={pro} />
+   <Home     profile={profile} />
    <About profile={profile} />
    <Skills/>
    <Projects/>

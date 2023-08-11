@@ -3,6 +3,8 @@
 @import "./scss/mixin";
 @import "./scss/resp";
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400&family=Poppins&family=Raleway&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,500&display=swap');
+
 
 
 
@@ -16,7 +18,7 @@ body {
     background-color: $contrast-color;
 
     .navbar-brand {
-        color: black;
+        color: $back-color;
         margin-left: 2%;
 
 
@@ -38,7 +40,7 @@ body {
 
 
             .nav-link {
-                color: black;
+                color: $back-color;
 
                 &:hover {
                     color: $contrast-color;
@@ -57,7 +59,7 @@ body {
 
 
         .logo {
-            color: black;
+            color:$back-color;
 
             &:hover {
                 color: $contrast-color;
@@ -89,32 +91,43 @@ body {
 // INTRO
 .section1 {
     min-height: 100vh;
+    width: 100%;
 
 
     .main-box {
-        min-height: 90vh;
+      
 
         .text-box {
-            min-height: 90vh;
+        
             color: $text-color;
 
-          
-
             .main-text {
-                margin-top: 70%;
+                margin-top: 30%;
+                font-size: 4rem;
+                font-family: 'Bricolage Grotesque', sans-serif;
             }
 
+
             .button {
-                background-color: $back-color;
+                margin-top: 10%;
+                
+                background-color: rgb(57, 116, 23);
                 color: white;
                 border: none;
-
+                
+    
                 &:hover {
                     color: $text-color;
                     border: 1px solid;
                     border-color: $text-color;
                     background-color: $contrast-color;
                 }
+        }
+
+
+    
+
+           
 
             }
 
@@ -126,28 +139,35 @@ body {
    
 
 
-        .img {
-            height: 90vh;
-        //   background-image: url("../src/assets/pro2.png");
-        //     margin-top: 70px;
-        //   background-repeat: no-repeat;
-        //   background-size: cover;
-        //   background-position: center;
-        //   border-radius: 50%;
-        filter: drop-shadow( 8px 8px 6px rgba(0, 0, 0, 0.4));
+        .second-box {
 
+
+           
 
         .color{
 
 
-            background-color: black;
-            height: 65vh;
-            width: 55vh;
-            border-radius: 50%;
+            background-color: rgb(57, 116, 23);
+            height: 60vh;
+            width: 50vh;
+            border-radius: 10%;
             margin-top: 40%;
             position: relative;
+
+            img{
+                filter: drop-shadow( 2px 2px 1px rgba(109, 104, 104, 0.4));
+            }
+         
         }
-    }
+
+
+
+       
+
+
+
+
+  
 
 
 
@@ -400,6 +420,7 @@ body {
                     background-color: rgb(215, 159, 17);
                     outline: none;
                     color: grey;
+                    width: 80%;
 
                     &:hover {
                         background-color: lightgrey;
@@ -411,6 +432,11 @@ body {
                     background-color: rgb(215, 159, 17);
                     outline: none;
                     color: grey;
+                    -webkit-box-sizing: border-box;
+                    -moz-box-sizing: border-box;
+                    box-sizing: border-box;
+                
+                    width: 90%;
 
 
                 }
