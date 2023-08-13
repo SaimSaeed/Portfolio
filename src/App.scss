@@ -13,12 +13,20 @@ body {
     font-family: 'Nunito', sans-serif;
 }
 
-.navbar {
+
+
+
+
+nav {
     height: 10vh;
-    background-color: $contrast-color;
+
+
+   
+   
+
 
     .navbar-brand {
-        color: $back-color;
+        color: $text-color;
         margin-left: 2%;
 
 
@@ -40,7 +48,7 @@ body {
 
 
             .nav-link {
-                color: $back-color;
+                color: $text-color;
 
                 &:hover {
                     color: $contrast-color;
@@ -59,7 +67,7 @@ body {
 
 
         .logo {
-            color:$back-color;
+            color:$text-color;
 
             &:hover {
                 color: $contrast-color;
@@ -69,6 +77,12 @@ body {
 
     }
 }
+
+
+ .nav-scroll{
+        background-color: $back-color;
+        box-shadow: 0px 3px 10px rgba(0,0,0,0.15) ;
+    }
 
 // Footer
 
@@ -117,9 +131,9 @@ body {
                 
     
                 &:hover {
-                    color: $text-color;
+                    color: $back-color;
                     border: 1px solid;
-                    border-color: $text-color;
+                    border-color: $back-color;
                     background-color: $contrast-color;
                 }
         }

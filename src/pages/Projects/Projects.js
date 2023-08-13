@@ -21,30 +21,30 @@ export default function Projects() {
         },
         {
             id: 3,
-            title: "SheyRooms",
-            description:"SheyRooms is a Hotel Booking App",
-            imgUrl:"https://images.pexels.com/photos/12699625/pexels-photo-12699625.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            title: "TextUtils",
+            description:"TextUtils is a Text Editing App",
+            imgUrl:"https://drive.google.com/uc?export=view&id=1tKxPLM3F5HfxyP-UOSBmj_ZVIF7UhIli",
             Url:"https://textutils00.surge.sh/"
         },
         {
             id: 4,
-            title: "SheyRooms",
-            description:"SheyRooms is a Hotel Booking App",
-            imgUrl:"https://images.pexels.com/photos/12699625/pexels-photo-12699625.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            title: "TextUtils",
+            description:"TextUtils is a Text Editing App",
+            imgUrl:"https://drive.google.com/uc?export=view&id=1tKxPLM3F5HfxyP-UOSBmj_ZVIF7UhIli",
             Url:"https://textutils00.surge.sh/"
         },
         {
             id: 5,
-            title: "SheyRooms",
-            description:"SheyRooms is a Hotel Booking App",
-            imgUrl:"https://images.pexels.com/photos/12699625/pexels-photo-12699625.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            title: "TextUtils",
+            description:"TextUtils is a Text Editing App",
+            imgUrl:"https://drive.google.com/uc?export=view&id=1tKxPLM3F5HfxyP-UOSBmj_ZVIF7UhIli",
             Url:"https://textutils00.surge.sh/"
         },
         {
             id: 6,
-            title: "SheyRooms",
-            description:"SheyRooms is a Hotel Booking App",
-            imgUrl:"https://images.pexels.com/photos/12699625/pexels-photo-12699625.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            title: "TextUtils",
+            description:"TextUtils is a Text Editing App",
+            imgUrl:"https://drive.google.com/uc?export=view&id=1tKxPLM3F5HfxyP-UOSBmj_ZVIF7UhIli",
             Url:"https://textutils00.surge.sh/"
         },
     
@@ -59,11 +59,11 @@ export default function Projects() {
         <>
             <div className=' container project-box' id='projects'>
                 <div className=' row'  >
-                    <div className=' col-12 project-heading'>
+                    <iv className=' col-12 project-heading'>
                         <h1>Projects</h1>
                         <div className='line'></div>
 
-                    </div>
+                    </iv>
 {
                    data.map((element)=>{
              return       <Cards   key={element.id} title={element.title} description={element.description} img={element.imgUrl}  Url={element.Url}/>
