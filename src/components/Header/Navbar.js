@@ -1,4 +1,4 @@
-import React ,{useState,useEffect} from 'react';
+import React ,{useState} from 'react';
 import {Link} from "react-scroll"
 
 
@@ -7,7 +7,7 @@ export default function Navbar() {
   const [navbar,setNavbar] = useState(false)
 
   const changeBackground = ()=>{
-if(window.scrollY >= 30){
+if(window.scrollY >= 100){
 setNavbar(true)
 
 
@@ -34,7 +34,7 @@ setNavbar(true)
   return (
     <>
   
-      <nav className={`${navbar ? "navbar nav-scroll": "navbar"} navbar-expand-lg fixed-top  `}>
+      <nav className={`${navbar ? "navbar nav-scroll": "navbar bg-primary"} navbar-dark navbar-expand-lg fixed-top  `}>
         <div className="container-fluid">
         <a className="navbar-brand" href="/"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" className="bi bi-code-slash" viewBox="0 0 16 16">
   <path d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294l4-13zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0zm6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0z"/>
@@ -43,21 +43,21 @@ setNavbar(true)
       <span className="navbar-toggler-icon"></span>
     </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul className="navbar-nav ms-auto mb-2  mb-lg-0 nav-list">
+            <ul className="navbar-nav ms-auto mb-2 mx-auto mb-lg-0 nav-list">
               <li className="nav-item items ">
-                <Link to="intro" spy={true} smooth={true} offset={-50} duration={500} className="nav-link" aria-current="page">Portfolio</Link>
+                <Link to="intro" spy={true} smooth={true} offset={-50} duration={300} className="nav-link" aria-current="page">Home</Link>
               </li>
               <li className="nav-item items">
-                <Link to="skills" spy={true} smooth={true} offset={-40} duration={500} className="nav-link">Skills</Link>
+                <Link to="skills" spy={true} smooth={true} offset={-50} duration={300} className="nav-link">Skills</Link>
               </li>
               <li className="nav-item items">
-                <Link to="projects" spy={true} smooth={true} offset={-50} duration={500} className="nav-link">Projects</Link>
+                <Link to="projects" spy={true} smooth={true} offset={-50} duration={300} className="nav-link">Projects</Link>
               </li>
               <li className="nav-item items">
-                <Link to="about" spy={true} smooth={true} offset={-50} duration={500}  className="nav-link">About</Link>
+                <Link to="about" spy={true} smooth={true} offset={-50} duration={300}  className="nav-link">About</Link>
               </li>
               <li className="nav-item items">
-                <Link to="contact" spy={true} smooth={true} offset={-50} duration={500} className="nav-link" >Contact</Link>
+                <Link to="contact" spy={true} smooth={true} offset={-50} duration={300} className="nav-link" >Contact</Link>
               </li>
             </ul>
            <div className='social'>

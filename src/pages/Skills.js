@@ -6,7 +6,7 @@ export default  function Skills() {
  
   return (
     <> 
-    <div className=' skill-box' id='skills' >
+    <div className=' skill-box' id='skills'  style={{backgroundColor:" rgb(57, 116, 23)"}}>
       
       <div className='skill-heading'>
        <h1>My Skills</h1> 

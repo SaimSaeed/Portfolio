@@ -13,7 +13,7 @@ export default  function Intro(props) {
     <div className='col-12 col-sm-12 col-md-4 text-box'>
    
 <h1 className=' main-text text-left'>Hi!,<br/> I'm Saim Saeed</h1>
-<Link to="projects" spy={true} smooth={true} offset={-50} duration={500} className='btn button' >See My Work</Link>
+<Link to="projects" spy={true} smooth={true} offset={-50} duration={200} className='btn button' >See My Work</Link>
 
 
 
@@ -26,7 +26,7 @@ export default  function Intro(props) {
     </div> 
 
     <div className='col-12 col-sm-12 col-md-4 third-box'>
-    <p className=' normal-text  ' style={{marginTop:"35%",color:"white",marginLeft:"40%",fontSize:"3rem",fontFamily:" 'Bricolage Grotesque', sans-serif"}}>UX/UI <br/>Full Stack  <br/> MERN<br/>React JS</p>
+    <p className=' normal-text  ' style={{marginTop:"30%",color:"white",marginLeft:"40%",fontSize:"3rem",fontFamily:" 'Bricolage Grotesque', sans-serif"}}>UX/UI <br/>Full Stack  <br/> MERN<br/>React JS</p>
     </div>
     </div>
 </section>
