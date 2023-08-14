@@ -8,7 +8,6 @@ $theme-colors: (
 @import "../node_modules/bootstrap/scss/_variables.scss";
 @import "./scss/mixin";
 @import "./scss/resp";
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400&family=Poppins&family=Raleway&family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,500&display=swap');
 
 
@@ -19,7 +18,8 @@ $theme-colors: (
 
 
 body {
-    font-family: 'Nunito', sans-serif;
+    
+    font-family: 'Bricolage Grotesque', sans-serif;
     background-color: $contrast-color;
     overflow-anchor: none;
     overflow-y: none;
@@ -30,53 +30,19 @@ body {
 
 
 
-// nav {
-//     height: 10vh;
-//     overflow-anchor: none;
-//     overflow-y: none;
-
-
-   
-   
-
-
-//     .navbar-brand {
-//         color: $text-color;
-//         margin-left: 2%;
-
-
-//         &:hover {
-//             color: $contrast-color;
-//         }
-//     }
-
-
-
-//     .nav-list {
-//         width: 50%;
-//         margin: 0 auto;
-//         padding-right: 5%;
-//         display: flex;
-//         justify-content: space-around;
-
-//         .nav-item {
-
-
-//             .nav-link {
-//                 color: $text-color;
-
-//                 &:hover {
-//                     color: $contrast-color;
-//                 }
-
-//             }
-//         }
-//     }
+.navbar-nav {
+    
+    width: 50%;
+    margin: auto;
+    li {
+        margin-right: 8%;
+    }
+}
 
 
     .social {
         width: 6vw;
-        margin-right: 2%;
+        margin-right: 1%;
         display: flex;
         justify-content: space-between;
 
@@ -91,7 +57,7 @@ body {
 
 
     }
-// }
+
 
 
  .nav-scroll{
@@ -134,7 +100,6 @@ body {
             .main-text {
                 margin-top: 30%;
                 font-size: 4rem;
-                font-family: 'Bricolage Grotesque', sans-serif;
             }
 
 
@@ -417,6 +382,7 @@ body {
 
                     svg {
                         color: rgb(215, 159, 17);
+                        margin-right: 2%;
                     }
 
                     a {
