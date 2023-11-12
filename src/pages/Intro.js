@@ -26,7 +26,7 @@ export default  function Intro(props) {
     </div> 
 
     <div className='col-12 col-sm-12 col-md-4 third-box'>
-    <p className=' normal-text  ' style={{marginTop:"30%",color:"white",marginLeft:"40%",fontSize:"3rem",fontFamily:" 'Bricolage Grotesque', sans-serif"}}>UX/UI <br/>Full Stack  <br/> MERN<br/>React JS</p>
+    <p className=' intro-text  ' style={{marginTop:"30%",color:"white",marginLeft:"40%",fontSize:"3rem",fontFamily:" 'Bricolage Grotesque', sans-serif"}}>UX/UI <br/>React JS <br/> Full Stack<br/>MERN</p>
     </div>
     </div>
 </section>

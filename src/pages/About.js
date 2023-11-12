@@ -21,8 +21,7 @@ export default function About(props) {
                         <h2><b>I'm Saim Saeed.</b></h2>
                         <h5><b>A <span style={{ color: "rgb(215, 159, 17)" }}>Full Stack</span> Web App Developer</b></h5>
 
-                        <p className='about-text' style={{ width: "90%" }}>
-
+                        <p className='about-text' style={{ width: "100%" }}>
                             <br />  Self-motivated Senior Web App Developer with a high level of experience working on multiple projects.
                             Passionate and hardworking with a penchant for meeting deadlines.
                             Interested in role with the company promoting best practices and offering diverse customer projects.<br/>
@@ -31,9 +30,9 @@ export default function About(props) {
                             <br />
             
                         </p>
-                        <hr style={{ width: "90%" }} />
+                        <hr style={{ width: "100%" ,margin:"auto"}} />
                         
-                        <h5><b>Personal Info</b></h5>
+                        <h5 className='mt-2'><b>Personal Info</b></h5>
                         <ul  className='list d-flex flex-wrap' style={{listStyle:"none"}} >
                             <li style={{width:"50%"}} className='mb-3'>  <strong>Name:</strong> M Saim Saeed</li>
                             <li style={{width:"50%"}}> <strong>Email:</strong> saimsaeed640@gmail.com</li>

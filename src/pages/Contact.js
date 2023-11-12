@@ -73,7 +73,7 @@ saimsaeed640@gmail.com</a>
                                 <li style={{ width: "50%", marginBottom: "10%" }}><input type='text' placeholder='Email *' style={{ borderBottom: "1px solid grey",backgroundColor: "rgb(215, 159, 17)" }} onChange={(e)=>setEmail(e.target.value)}  />  </li>
                                 <li style={{ width: "50%" }}><input type='text' placeholder='Subject *' style={{ borderBottom: "1px solid grey",backgroundColor: "rgb(215, 159, 17)" }} onChange={(e)=>setSubject(e.target.value)}  />  </li>
                                 <li style={{ width: "100%" }}><textarea cols={50} rows={6} placeholder='Comment *' style={{ borderBottom: "1px solid grey", borderRight: "1px solid grey" }} onChange={(e)=>setComment(e.target.value)}  />  </li>
-                                <li style={{ width: "30%", margin: "0 auto" }}><button className='contact-button' style={{ backgroundColor: "grey", padding: "10px 12px 10px 12px", borderRadius: "30px", marginTop: "30%", color: "white" }} onClick={sendMessage}>Send Message </button> </li>
+                                <li style={{ width: "30%", margin: "0 auto" }}><button className='contact-button' style={{ backgroundColor: "grey", padding: "10% 12% 10% 12%", borderRadius: "30px", color: "white" }} onClick={sendMessage}><span className='form-btn'>Send Message</span> </button> </li>
 
 
 
