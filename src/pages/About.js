@@ -13,9 +13,9 @@ export default function About(props) {
 
                     </div>
                     <div className='col-12 col-sm-12 col-md-6 mt-3  aboutdata text-center mt-3'>
-
-                        <img src={props.profile} alt='Profile'  style={{ borderRadius: "10px",height:"90%", boxShadow: "3px 3px 3px 3px grey"  }} />
-
+<div >
+                        <img src={props.profile} alt='Profile' className='img-fluid mb-5 w-50'  style={{ borderRadius: "10px", boxShadow: "3px 3px 3px 3px grey"  }} />
+                        </div>
                     </div>
                     <div className='col-12 col-sm-12 col-md-6 mt-3 about-detail'>
                         <h2><b>I'm Saim Saeed.</b></h2>
@@ -31,19 +31,20 @@ export default function About(props) {
             
                         </p>
                         <hr style={{ width: "100%" ,margin:"auto"}} />
-                        
+                       
                         <h5 className='mt-2'><b>Personal Info</b></h5>
-                        <ul  className='list d-flex flex-wrap' style={{listStyle:"none"}} >
-                            <li style={{width:"50%"}} className='mb-3'>  <strong>Name:</strong> M Saim Saeed</li>
-                            <li style={{width:"50%"}}> <strong>Email:</strong> saimsaeed640@gmail.com</li>
-                            <li  style={{width:"50%"}} className='mb-3'> <strong>Phone/Whatsapp:</strong> +923045575062</li>
-                            <li  style={{width:"50%"}}>  <strong>Nationality:</strong> Pakistani<br /></li>
-                            <li  style={{width:"50%"}}>  <strong>Language:</strong> Urdu,English,Japanese<br /></li>
-                            <li  style={{width:"50%"}}>  <strong>Freelance:</strong> Available<br /></li>
+                        <div className='container-fluid'>
+                        <ul  className='row' style={{listStyle:"none"}} >
+                            <li  className='col-6 col-sm-6 col-md-6 mb-3'>  <strong>Name:</strong> M Saim Saeed</li>
+                            <li  className='col-6 col-sm-6 col-md-6'> <strong>Email:</strong> saimsaeed640@gmail.com</li>
+                            <li  className='col-6 col-sm-6 col-md-6 mb-3'> <strong>Phone/Whatsapp:</strong> +923045575062</li>
+                            <li className='col-6 col-sm-6 col-md-6'>  <strong>Nationality:</strong> Pakistani<br /></li>
+                            <li className='col-6 col-sm-6 col-md-6'>  <strong>Language:</strong> Urdu,English,Japanese<br /></li>
+                            <li className='col-6 col-sm-6 col-md-6'>  <strong>Freelance:</strong> Available<br /></li>
                            
                         </ul>
 
-
+                        </div>
                         
                     </div>
 

@@ -1,7 +1,7 @@
-import React, {useState,useEffect}from 'react'
+import React from 'react'
 import Cards from './Cards'
-import { db } from '../config/firebase_config'
-import {getDocs,collection} from "firebase/firestore"
+// import { db } from '../config/firebase_config'
+// import {getDocs,collection} from "firebase/firestore"
 
 export default function Projects() {
 
