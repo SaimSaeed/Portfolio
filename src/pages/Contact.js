@@ -65,9 +65,8 @@ saimsaeed640@gmail.com</a>
 
                         </div>
                     </div>
-                    <div className=' col-12 col-sm-12 col-md-6'>
-
-                        <div className='contact-form' >
+                    <div className=' col-12 col-sm-12 col-md-6 contact-form-box'>
+                        <div className='contact-form ' >
                             <ul style={{ display: "flex", flexWrap: "wrap", listStyleType: "none" }}>
                                 <li style={{ width: "100%", marginBottom: "10%", marginTop: "10%", }}><input type='text' style={{ width: "90%", margin: "0 auto", border: "none", backgroundColor: "rgb(215, 159, 17)", borderBottom: "1px solid grey", outline: "none" }} placeholder='Name *' onChange={(e)=>setNewName(e.target.value)} />  </li>
                                 <li style={{ width: "50%", marginBottom: "10%" }}><input type='text' placeholder='Email *' style={{ borderBottom: "1px solid grey",backgroundColor: "rgb(215, 159, 17)" }} onChange={(e)=>setEmail(e.target.value)}  />  </li>

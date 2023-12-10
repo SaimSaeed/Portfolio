@@ -1,7 +1,8 @@
 $theme-colors: (
-  "primary":rgb(215, 159, 17),
-);
+    "primary":rgb(215, 159, 17),
+    "secondary":rgb(57, 116, 23),
 
+);
 
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
 @import "./scss/var";
@@ -11,62 +12,52 @@ $theme-colors: (
 @import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,500&display=swap');
 
 
-
-
-
-
-
-
 body {
-    
-    font-family: 'Bricolage Grotesque', sans-serif;
-    background-color: $contrast-color;
-    overflow-anchor: none;
-    overflow-y: none;
 
+    font-family: 'Bricolage Grotesque', sans-serif;
 }
 
 
-
-
-
+// Navbar Start
 .navbar-nav {
-    
+
     width: 50%;
     margin: auto;
+
     li {
         margin-right: 8%;
     }
 }
 
 
-    .social {
-        width: 6vw;
-        margin-right: 1%;
-        display: flex;
-        justify-content: space-between;
+.social {
+    width: 6vw;
+    margin-right: 1%;
+    display: flex;
+    justify-content: space-between;
 
 
-        .logo {
-            color:$text-color;
+    .logo {
+        color: $text-color;
 
-            &:hover {
-                color: $contrast-color;
-            }
+        &:hover {
+            color: $contrast-color;
         }
-
-
     }
 
 
+}
 
- .nav-scroll{
-        background-color: $back-color;
-        box-shadow: 0px 3px 10px rgba(0,0,0,0.15) ;
-    }
 
-// Footer
 
+.nav-scroll {
+    background-color: $back-color;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.15);
+}
+
+// Navbar End
+
+// Footer Start
 .footer-box {
     min-width: 100%;
     height: 8vh;
@@ -81,99 +72,9 @@ body {
 
 }
 
+// Footer End
 
-
-// INTRO
-.section1 {
-    min-height: 100vh;
-    width: 100%;
-    
-
-
-    .main-box {
-      
-
-        .text-box {
-        
-            color: $text-color;
-
-            .main-text {
-                margin-top: 30%;
-                font-size: 4rem;
-            }
-
-
-            .button {
-                margin-top: 10%;
-                
-                background-color: rgb(57, 116, 23);
-                color: white;
-                border: none;
-                
-    
-                &:hover {
-                    color: $back-color;
-                    border: 1px solid;
-                    border-color: $back-color;
-                    background-color: $contrast-color;
-                }
-        }
-
-
-    
-
-           
-
-            }
-
-
-        }
-
-
-
-   
-
-
-        .second-box {
-
-
-           
-
-        .color{
-
-
-            background-color: rgb(57, 116, 23);
-            height: 60vh;
-            width: 50vh;
-            border-radius: 10%;
-            margin-top: 40%;
-            position: relative;
-
-            img{
-                filter: drop-shadow( 2px 2px 1px rgba(109, 104, 104, 0.4));
-            }
-         
-        }
-
-
-
-       
-
-
-
-
-  
-
-
-
-
-
-    }
-}
-
-
-
-// About
+// About Start
 
 
 
@@ -201,32 +102,16 @@ body {
             border-radius: 2px;
 
         }
-        // .about-detail{
-            
-        // }
+
     }
 
 
 }
 
+// About End
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// Skills
+// Skills Start
 .skill-box {
     min-height: 100vh;
     background-color: $back-color;
@@ -306,10 +191,11 @@ body {
     }
 }
 
+// Skills End
 
 
 
-// Portfolio
+// Projects Start
 
 
 .project-box {
@@ -344,15 +230,15 @@ body {
 
 }
 
+// Project End
 
 
 
-// Contact Us
-
-
+// Contact Start
 .contact-box {
-    min-height: 100vh;
+    height: 100vh;
     background-color: white;
+   
 
     .contact-heading {
 
@@ -381,7 +267,7 @@ body {
 
                 li {
                     margin-top: 7%;
-                    
+
 
                     svg {
                         color: rgb(215, 159, 17);
@@ -403,14 +289,15 @@ body {
             }
         }
     }
-
-
+.contact-form-box{
+margin-top: 5%;
     .contact-form {
         background-color: $contrast-color;
+        padding-bottom: 10%;
+        
         width: 80%;
         margin: auto;
-        height: 80vh;
-        margin-top: 10vh;
+        height: auto;
         border-radius: 10px;
         filter: drop-shadow(8px 8px 6px rgba(0, 0, 0, 0.4));
 
@@ -436,7 +323,7 @@ body {
                     -webkit-box-sizing: border-box;
                     -moz-box-sizing: border-box;
                     box-sizing: border-box;
-                
+
                     width: 90%;
 
 
@@ -446,6 +333,7 @@ body {
                     outline: none;
                     border: none;
                     filter: drop-shadow(6px 6px 4px rgba(0, 0, 0, 0.4));
+                   
 
                     &:hover {
                         background-color: white;
@@ -456,7 +344,9 @@ body {
             }
         }
     }
-
+}
 
 
 }
+
+// Contact End

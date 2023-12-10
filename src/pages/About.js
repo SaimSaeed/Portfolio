@@ -14,7 +14,7 @@ export default function About(props) {
                     </div>
                     <div className='col-12 col-sm-12 col-md-6 mt-3  aboutdata text-center mt-3'>
 
-                        <img src={props.profile} alt='Profile' style={{ borderRadius: "10px", height: "500px", boxShadow: "3px 3px 3px 3px grey"  }} />
+                        <img src={props.profile} alt='Profile'  style={{ borderRadius: "10px",height:"90%", boxShadow: "3px 3px 3px 3px grey"  }} />
 
                     </div>
                     <div className='col-12 col-sm-12 col-md-6 mt-3 about-detail'>

@@ -92,6 +92,7 @@ useEffect(() => {
 
     return (
         <>
+        <div className='bg-primary'>
             <div className=' container project-box' id='projects'>
                 <div className=' row'  >
                     <div className=' col-12 project-heading'>
@@ -112,7 +113,7 @@ useEffect(() => {
 
 
 
-
+            </div>
 
 
 

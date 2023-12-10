@@ -12,6 +12,8 @@ import profile from "../src/assets/profile.JPG"
 
 
 
+
+
 function App() {
 
 
@@ -22,10 +24,10 @@ function App() {
    <Header/>
 
    <Home     profile={profile} />
-   <About profile={profile} />
+    <About profile={profile} />
    <Skills/>
    <Projects/>
-   <Contact/>
+   <Contact/> 
 
 
 

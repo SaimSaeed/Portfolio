@@ -2,34 +2,44 @@ import React from "react";
 import {Link} from "react-scroll";
 
 
+
 export default  function Intro(props) {
 
    
 
   return (
     <>
-<section className='container section1 ' id='intro'>
+    <div className="bg-primary mt-5">
+     
+<div className='container-fluid px-5 min-vh-100 ' id='intro'>
     <div className='row main-box'>
-    <div className='col-12 col-sm-12 col-md-4 text-box'>
-   
-<h1 className=' main-text text-left'>Hi!,<br/> I'm Saim Saeed</h1>
-<Link to="projects" spy={true} smooth={true} offset={-50} duration={200} className='btn button' >See My Work</Link>
-
+    <div className='col-12 col-sm-12 col-md-4 text-box my-auto pt-5 '>
+      <div>
+<p className='  text-white text-left display-3 '>Hi!,<br/> I'm Saim Saeed</p>
+<div className= "mt-3 ">
+<Link to="projects" spy={true} smooth={true} offset={-50} duration={200} className='btn btn-secondary text-white' >See My Work</Link>
+<Link to="projects" className="btn  btn-secondary " style={{marginLeft:"1%"}}>Download CV</Link>
+</div>
+</div>
 
 
     </div>
-     <div className='col-12 col-sm-12 col-md-4 second-box'>
-      <div className='color mx-auto'>
-      <img src={props.profile} alt='main-profile' style={{height:"100%",width:"100%",position:"absolute",bottom:"8%",right:"8%",borderRadius:"10%",border:"2px solid black"}}/>
+     <div className='col-12 col-sm-12 col-md-4 my-auto pt-5 second-box'>
+      <div className=' w-75  mx-auto text-center mt-5 pt-0'>
+      <img src={props.profile} alt='main-profile'  className="img-fluid border border-secondary rounded-pill"/>
+    
       </div>
       
     </div> 
 
-    <div className='col-12 col-sm-12 col-md-4 third-box'>
-    <p className=' intro-text  ' style={{marginTop:"30%",color:"white",marginLeft:"40%",fontSize:"3rem",fontFamily:" 'Bricolage Grotesque', sans-serif"}}>UX/UI <br/>React JS <br/> Full Stack<br/>MERN</p>
+    <div className='col-12 col-sm-12 col-md-4 third-box my-auto '>
+      
+      <p className=' intro-text text-white pl-5 display-3 mt-5 pt-5 float-end     ' >UX/UI <br/>React<br/> Bootstrap<br/>MERN</p>
+     
     </div>
     </div>
-</section>
+</div>
+</div>
     </>
   )
 }
