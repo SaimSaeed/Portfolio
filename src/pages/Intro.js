@@ -9,9 +9,9 @@ export default  function Intro(props) {
 
   return (
     <>
-    <div className="bg-primary mt-5 min-vw-100">
+    <div className="bg-primary mt-5 ">
      
-<div className='container-fluid px-5 min-vh-100 min-vw-100 ' id='intro'>
+<div className='container-fluid px-5 min-vh-100 ' id='intro'>
     <div className='row main-box'>
     <div className='col-12 col-sm-12 col-md-4 text-box my-auto pt-5 '>
       <div>
