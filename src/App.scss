@@ -1,6 +1,6 @@
 $theme-colors: (
     "primary":rgb(215, 159, 17),
-    "secondary":rgb(57, 116, 23),
+    "secondary":#D76D11,
 
 );
 
@@ -81,6 +81,7 @@ body {
 .about-box {
     min-height: 120vh;
     background-color: white;
+    padding-right: 100px;
 
     .about-heading {
         height: 30vh;
@@ -106,6 +107,12 @@ body {
     }
 
 
+}
+
+
+.about-text{
+    font-size: 17px;
+    text-align: justify;
 }
 
 // About End
@@ -173,19 +180,29 @@ body {
     }
 
     .box4 {
-        background-image: url('../src/assets/sass.png');
+        background-image: url('../src/assets/vue.png');
         @include background;
         @include cicularAnimation(rgb(253, 44, 79), rgb(253, 44, 79), rgb(253, 44, 79));
     }
 
     .box5 {
-        background-image: url('../src/assets/bootstrap.png');
+        background-image: url('../src/assets/node.png');
         @include background;
         @include cicularAnimation(red, red, red);
     }
 
     .box6 {
         background-image: url('../src/assets/react.png');
+        @include background;
+        @include cicularAnimation(yellow, yellow, yellow);
+    }
+     .box7 {
+        background-image: url('../src/assets/mongo.png');
+        @include background;
+        @include cicularAnimation(yellow, yellow, yellow);
+    }
+     .box8 {
+        background-image: url('../src/assets/express.png');
         @include background;
         @include cicularAnimation(yellow, yellow, yellow);
     }
@@ -350,3 +367,11 @@ margin-top: 5%;
 }
 
 // Contact End
+
+
+.custom-background{
+// background: #ded757;
+// background: radial-gradient(circle, rgba(222, 215, 87, 1) 0%, rgba(215, 159, 17, 1) 40%);
+background: #ded757;
+background: radial-gradient(circle, rgba(222, 215, 87, 1) 0%, rgba(215, 159, 17, 1) 42%);
+}
