@@ -9,8 +9,8 @@ export default  function Skills() {
     <div className=' skill-box bg-secondary' id='skills'>
       
       <div className='skill-heading'>
-       <h1>My Skills</h1> 
-       <div className='line'></div>
+       <h1 className='text-black'>My Skills</h1> 
+       <div className='line text-black'></div>
         </div>
       
       <div className='row container-fluid'>

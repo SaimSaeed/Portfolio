@@ -11,7 +11,6 @@ $theme-colors: (
 @import "./scss/resp";
 @import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,500&display=swap');
 
-
 body {
 
     font-family: 'Bricolage Grotesque', sans-serif;
@@ -41,7 +40,7 @@ body {
         color: $text-color;
 
         &:hover {
-            color: $contrast-color;
+            color: whitesmoke ;
         }
     }
 
@@ -53,6 +52,15 @@ body {
 .nav-scroll {
     background-color: $back-color;
     box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.15);
+}
+
+
+.nav-link{
+    cursor: pointer;
+    color: white ;
+      &:hover {
+            color: whitesmoke ;
+        }
 }
 
 // Navbar End
@@ -375,3 +383,42 @@ margin-top: 5%;
 background: #ded757;
 background: radial-gradient(circle, rgba(222, 215, 87, 1) 0%, rgba(215, 159, 17, 1) 42%);
 }
+
+
+
+// Services Start 
+
+.service-box {
+    min-height: 120vh;
+    background-color: white;
+
+    .service-heading {
+        height: 30vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+
+        h1 {
+            color: black;
+        }
+
+        .line {
+            color: black;
+            width: 8%;
+            margin: 0 auto;
+            border: 3px solid;
+            background-color: $text-color;
+            border-radius: 2px;
+
+        }
+
+    }
+
+
+}
+
+
+
+
+// Services End
